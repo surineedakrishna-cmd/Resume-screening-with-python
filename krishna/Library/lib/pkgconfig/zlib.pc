@@ -1,0 +1,13 @@
+prefix=D:/nlp projects code/krishna/Library
+exec_prefix=D:/nlp projects code/krishna/Library
+libdir=D:/nlp projects code/krishna/Library/lib
+sharedlibdir=D:/nlp projects code/krishna/Library/lib
+includedir=D:/nlp projects code/krishna/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
